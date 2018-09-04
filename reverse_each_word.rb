@@ -1,5 +1,4 @@
 def reverse_each_word(string)
-  (string.split).collect(&:join) do |word| word.reverse
-  end
+  (string.split).collect(&:join) |word| word.reverse
 end
 #groups.map!(&:join)
